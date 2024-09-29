@@ -51,7 +51,7 @@ const MyLogin = () => {
                         <h3>
                             <i className="fa fa-users fa-3x text-info"></i>
                         </h3>
-                        <p>Freshers & Experienced Hire and Deploy</p>
+                        <p className="text-light">Freshers & Experienced Hire and Deploy</p>
                         <p className="text-center text-danger">{message}</p>
                     </div>
 
