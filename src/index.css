@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(24, 24, 24) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+ /* ul li :hover {
+  background-color: rgb(161, 12, 12) !important;
+  color: green !important;
+  border-radius: 5px;
+} */
+/* Add this to your CSS file */
+.navbar-nav .nav-link {
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #09c0e9; /* Change text color */
+}
+
+/* Style for the active nav-link */
+.navbar-nav .nav-item .nav-link.active {
+  color: #09c0e9; /* Change text color for active element */
+  font-weight: bold; /* Optionally, make the active link bold */
+  /* background-color: rgba(0, 123, 255, 0.1); 
+  border-radius: 20px; */
+}
+
+
+
+
+
+h3 {
+  color: #61dafb; /* Bright primary color */
+  font-weight: 600;
+}
+
+/* Table styles */
+.table {
+  background-color: #2a2a2a; /* Slightly lighter background for the table */
+  border-collapse: collapse;
+}
+
+.table thead th {
+  background-color: #343a40; /* Darker header */
+  color: #f0f0f0; /* White text */
+  text-align: center;
+  font-weight: 600;
+}
+
+.table tbody td {
+  color: #e0e0e0; /* Lighter text for rows */
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #444444; /* Highlighted row on hover */
+  transition: background-color 0.3s ease;
+}
+
+.table-bordered td, .table-bordered th {
+  border: 1px solid #444444; /* Borders matching the dark theme */
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #ffffff;
+  background-color: #212529; /* Dark pagination buttons */
+  border: 1px solid #444444; /* Dark border */
+}
+
+.pagination .page-link:hover {
+  background-color: #61dafb; /* Highlight pagination on hover */
+  color: #181818;
+}
+
+.pagination .active .page-link {
+  background-color: #3498db; /* Active page button */
+  color: #ffffff;
+  border: 1px solid #3498db;
+}
+
+.form-control {
+  color: #ffffff;
+  background-color: #2a2a2a; /* Dark background for the input */
+  border: 1px solid #444444; /* Matching border */
+}
+
+.form-control:focus {
+  color: #ffffff;
+  background-color: #333333; /* Darker background on focus */
+  border-color: #61dafb; /* Highlight border on focus */
+  box-shadow: none;
+}
+
+/* index.css or your CSS file */
+::placeholder {
+  color: #ccc !important; /* Light gray for better visibility on dark background */
+  opacity: 1 !important; /* Ensures the placeholder is fully opaque */
+}
+
+
+
